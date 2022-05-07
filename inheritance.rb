@@ -32,3 +32,4 @@ class Fruit < Food
 end
 
 p Fruit.new('red', 15).parent_description
+# => "This is a food named apple and cost 10 dollars."
